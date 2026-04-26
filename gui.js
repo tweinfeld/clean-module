@@ -38,12 +38,12 @@ const layout = ({ total = 0, deletions = {}, totalDeleted = 0 }) =>
             [],
             text({}, `Found `),
             text({ color: "green" }, total),
-            text({}, " npm packages"),
+            text({}, " npm package(s)"),
           )
         : text(
             { key: "deleted" },
             [],
-            `Removed dependency folders from ${totalDeleted} npm packages`,
+            `Removed dependency folders from ${totalDeleted} npm package(s)`,
           ),
     ),
     totalDeleted === null
