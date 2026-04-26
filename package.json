@@ -1,0 +1,19 @@
+{
+  "name": "tweinfeld/clean-module",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node clean.js"
+  },
+  "dependencies": {
+    "glob": "^13.0.6",
+    "kefir": "^3.8.8",
+    "lodash": "^4.18.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Removes all node_modules from specified/current folder",
+  "devDependencies": {
+    "prettier": "^3.8.3"
+  }
+}
