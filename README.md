@@ -27,11 +27,11 @@ This will scan `~/projects` for every `package.json`, then delete the adjacent `
 
 ## Dependencies
 
-| Package | Purpose |
-|---------|---------|
-| [`glob`](https://github.com/isaacs/node-glob) | Stream-based file globbing |
-| [`kefir`](https://kefirjs.github.io/kefir/) | Reactive streams / FRP |
-| [`lodash`](https://lodash.com/) | Functional utilities (`fp/pipe`, `fp/partialRight`, `fp/always`) |
+| Package                                       | Purpose                                                          |
+| --------------------------------------------- | ---------------------------------------------------------------- |
+| [`glob`](https://github.com/isaacs/node-glob) | Stream-based file globbing                                       |
+| [`kefir`](https://kefirjs.github.io/kefir/)   | Reactive streams / FRP                                           |
+| [`lodash`](https://lodash.com/)               | Functional utilities (`fp/pipe`, `fp/partialRight`, `fp/always`) |
 
 ## Install
 

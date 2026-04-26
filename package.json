@@ -1,14 +1,16 @@
 {
-  "name": "tweinfeld/clean-module",
+  "name": "@tweinfeld/clean-module",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node clean.js"
+    "start": "node main.js"
   },
   "dependencies": {
     "glob": "^13.0.6",
+    "ink": "^7.0.1",
     "kefir": "^3.8.8",
-    "lodash": "^4.18.1"
+    "lodash": "^4.18.1",
+    "react": "^19.2.5"
   },
   "author": "",
   "license": "ISC",
