@@ -15,7 +15,10 @@ export const STATUS_FINISH = Symbol("Finish");
 
 const fromNodeStream = function (nodeStream) {
   return kefir
-    .fromEvents(nodeStream, "data")
+    .merge([
+      kefir.fromEvents(nodeStream, "data"),
+      kefir.fromEvents(nodeStream, "error").flatMap(kefir.constantError),
+    ])
     .takeUntilBy(kefir.fromEvents(nodeStream, "end").take(1));
 };
 

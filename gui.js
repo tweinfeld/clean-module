@@ -63,7 +63,7 @@ const layout = ({ total = 0, deletions = {}, totalDeleted = 0 }) =>
                     text({}, folder),
                     spacer({}),
                     status === STATUS_START
-                      ? text({ color: "orange" }, "Deleting")
+                      ? text({ color: "yellow" }, "Deleting")
                       : text({ color: "green" }, "Done!"),
                   ),
                 ]
