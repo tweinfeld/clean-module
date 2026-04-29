@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node main.js"
+    "start": "node src/main.js"
+  },
+  "bin": {
+    "npm-clean": "src/main.js"
   },
   "dependencies": {
     "glob": "^13.0.6",
