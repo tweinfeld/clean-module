@@ -5,9 +5,7 @@
   "scripts": {
     "start": "node src/main.js"
   },
-  "bin": {
-    "npm-clean": "src/main.js"
-  },
+  "bin": "./src/main.js",
   "dependencies": {
     "glob": "^13.0.6",
     "ink": "^7.0.1",

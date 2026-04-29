@@ -93,7 +93,10 @@ export default function (progressStream) {
           .scan((ac) => ac + 1, 0)
           .last()
           .toProperty(always(null)),
-        kefir.fromPoll(SECOND, noop).takeUntilBy(progressStream.last()),
+        kefir
+          .fromPoll(SECOND, noop)
+          .takeUntilBy(progressStream.last())
+          .toProperty(noop),
       ],
       (total, deletions, totalDeleted) => ({
         total,
