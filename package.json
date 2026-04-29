@@ -1,5 +1,5 @@
 {
-  "name": "@tweinfeld/clean-module",
+  "name": "@tweinfeld/npm-clean",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
